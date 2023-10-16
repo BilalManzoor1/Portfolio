@@ -1,0 +1,95 @@
+/* --------------- import font -------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/* --------------- body -------------------- */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+/* --------------- navbar -------------------- */
+.navbar {
+    background-color: white;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    opacity: 50%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* --------------- contact -------------------- */
+#contact {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* --------------- !home page welcome menu -------------------- */
+#wrapper {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('../assets/home/evie-s-bSVGnUCk4tk-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.display-1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/* --------------- profile container -------------------- */
+.profile {
+    justify-content: end;
+}
+
+@media (max-width: 1199px) {
+    .profile {
+        justify-content: center;
+    }
+}
+
+.profile-img {
+    height: fit-content;
+    max-height: 45rem;
+    bottom: 0;
+    left: 50%;
+}
+
+
+/* --------------- profile left border -------------------- */
+@media (min-width: 992px) {
+    #border-left {
+        border-left: solid 3px;
+    }
+}
